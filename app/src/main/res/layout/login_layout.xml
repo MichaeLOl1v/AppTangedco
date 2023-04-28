@@ -15,6 +15,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
+        android:textColorHint="#fff"
         android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +24,6 @@
         android:layout_marginLeft="20dp"
         android:hint="Username"
         app:startIconDrawable="@drawable/baseline_person"
-        app:endIconMode="clear_text"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 
         >
@@ -34,6 +34,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:textColorHint="#fff"
         android:id="@+id/Senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,10 +43,8 @@
         android:layout_marginLeft="20dp"
         android:hint="Password"
         app:startIconDrawable="@drawable/baseline_lock"
-        app:endIconMode="clear_text"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
-
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -57,8 +56,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
         android:gravity="right"
         android:text="Forgot your Password?"
+        android:textColor="#fff"
 
         />
 
@@ -66,7 +67,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="235dp"
         android:gravity="center"
         android:text="Sign in"
         />
