@@ -9,14 +9,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApp"
+        android:theme="@style/Theme.SemBarra"
         tools:targetApi="31">
         <activity
             android:name=".splash_layout"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Login_Layout"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
