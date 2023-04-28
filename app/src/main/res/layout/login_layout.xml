@@ -70,6 +70,8 @@
         android:layout_marginTop="235dp"
         android:gravity="center"
         android:text="Sign in"
+        android:backgroundTint="#040E49"
+
         />
 
 
